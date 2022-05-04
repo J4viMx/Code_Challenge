@@ -25,7 +25,7 @@ const students = [
       }    
 ]
 
-const StudentsService = require("../../../lib/services/StudentsService")
+const StudentsService = require("../../../lib/services/studentsService")
 
 
 
