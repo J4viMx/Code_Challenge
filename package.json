@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "server": "node ./lib/server.js",
-    "test": "jest"
+    "test": "jest",
+    "linter": "node ./node_modules/eslint/bin/eslint.js .",
+    "linter-fix": "node ./node_modules/eslint/bin/eslint.js . --fix"
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,7 @@
   },
   "homepage": "https://github.com/J4viMx/Code_Challenge#readme",
   "devDependencies": {
+    "eslint": "^8.14.0",
     "jest": "^28.0.3"
   },
   "dependencies": {
